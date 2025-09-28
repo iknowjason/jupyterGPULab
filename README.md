@@ -1,4 +1,4 @@
-# Sagemaker AI Playground
+# Jupyter Notebook GPU Lab
 
 ## Overview
 
