@@ -1,10 +1,6 @@
 # Jupyter Notebook GPU Lab
 
-## Overview
-
-## Key Features
-
-## Estimated Cost
+A simple deployment template using terraform that builds an AWS Sagemaker Jupyter Notebook running on a GPU.  Flexible deployment to scale the ML instance size up or down.  Run a development environment and automatically clone a Github repository of your own notebooks.
 
 ## How to Manage Costs 💰
 
@@ -15,8 +11,6 @@
 * **Monitor your billing dashboard.** Use the AWS Cost Explorer to track your spending in near-real-time.
 
 ## Requirements and Setup
-
-You will need a Hugging Face account https://huggingface.co/.  Generate a free Hugging Face API / access token.  
 
 **Tested with:**
 
