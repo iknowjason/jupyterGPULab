@@ -46,7 +46,6 @@ resource "aws_sagemaker_notebook_instance_lifecycle_configuration" "notebook_set
     # Clone the repository manually
     echo "Cloning repository for jupyter notebook samples"
     cd /home/ec2-user/SageMaker
-    #git clone https://github.com/cisco-foundation-ai/cookbook.git
     git clone ${var.gh_repo} 
 
     if [ $? -eq 0 ]; then
